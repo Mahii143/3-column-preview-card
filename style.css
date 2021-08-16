@@ -32,8 +32,6 @@
     border-bottom-right-radius: 10px;
 }
 .main_card_contents{
-    height: 100%;
-    width: 100%;
     padding: 2.5rem;
 }
 .card_contents{
@@ -57,7 +55,7 @@
     font-family: 'Lexend Deca', sans-serif;;
     color:hsla(0, 0%, 100%, 0.75);
 }
-.card_btn>p{
+#card1_btn,#card2_btn,#card3_btn{
     font-family: 'Lexend Deca', sans-serif;;
     width: 60%;
     text-align :center ;
@@ -72,26 +70,31 @@
 #card3{
     background-color:hsl(179, 100%, 13%);
 }
-#card1_btn>p{
+#card1_btn{
     color:hsl(31, 77%, 52%); 
 }
-#card2_btn>p{
+#card2_btn{
     color: hsl(184, 100%, 22%);
 }
-#card3_btn>p{
+#card3_btn{
     color:  hsl(179, 100%, 13%) ;
 }
-#card1_btn>p:hover{
+#card1_btn:hover{
     background-color:hsl(31, 77%, 52%) ;
     color: #fff;
+    transition: ease-in .3s;
 }
-#card2_btn>p:hover{
+#card2_btn:hover{
     background-color: hsl(184, 100%, 22%);
     color: #fff;
+    transition: ease-in .3s;
 }
-#card3_btn>p:hover{
+#card3_btn:hover{
     background-color: hsl(179, 100%, 13%);
-    color: #fff;}
+    color: #fff;
+    transition: ease-in .3s;
+}
+
 
 
 @media (min-width:1024px){
