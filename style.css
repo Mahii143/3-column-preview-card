@@ -37,7 +37,7 @@
     padding: 2.5rem;
 }
 .card_contents{
-    padding-top: 2rem;
+    padding: 2rem 0;
     font-size: 15px;
     color: #fff;
     /* font-family: 'Big Shoulders Display', cursive; */
