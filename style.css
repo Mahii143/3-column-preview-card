@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.main_container{
+    width: 85%;
+    position: absolute;
+    top: 12%;
+    left: 7.5%;
+    border-radius: 10px;
+}
+.main_card{
+    width: 100%;
+    background-color: hsl(31, 77%, 52%);
+    height: 450px;
+}
+#card1{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#card3{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.main_card_contents{
+    height: 100%;
+    width: 100%;
+    padding: 2.5rem;
+}
+.card_contents{
+    padding-top: 2rem;
+    font-size: 15px;
+    color: #fff;
+    /* font-family: 'Big Shoulders Display', cursive; */
+}
+.card_heading{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+.card_content{
+    margin: 2rem 0;
+}
+.card_content>p{
+    font-size: 16px;
+    line-height: 1.7rem;
+    font-family: 'Lexend Deca', sans-serif;;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.card_btn>p{
+    font-family: 'Lexend Deca', sans-serif;;
+    width: 60%;
+    text-align :center ;
+    background-color: white;
+    padding: 0.8rem;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+#card2{
+    background-color: hsl(184, 100%, 22%);
+}
+#card3{
+    background-color:hsl(179, 100%, 13%);
+}
+#card1_btn>p{
+    color:hsl(31, 77%, 52%); 
+}
+#card2_btn>p{
+    color: hsl(184, 100%, 22%);
+}
+#card3_btn>p{
+    color:  hsl(179, 100%, 13%) ;
+}
+#card1_btn>p:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    color: #fff;
+}
+#card2_btn>p:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: #fff;
+}
+#card3_btn>p:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;}
+
+
+@media (min-width:1024px){
+    .main_container{
+        width: 80%;
+        top:18%;
+        left: 16%;
+        display: flex;
+    }
+    .main_card{
+        width: 28%;
+    }
+    #card1{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    #card3{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+}
